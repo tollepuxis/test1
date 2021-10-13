@@ -1,3 +1,5 @@
 return {
-  
+  loadorder={
+    'main'
+  }
 }

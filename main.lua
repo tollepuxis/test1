@@ -10,7 +10,7 @@ end
 local function req(module)
     return require(pack:WaitForChild('Modules'):WaitForChild(module))
 end
-load({"test1"})
+load({"Services"})
 pack:WaitForChild('Modules')
 local Services = req('Services')
 print(Services)

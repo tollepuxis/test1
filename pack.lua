@@ -3,6 +3,7 @@ return {
   version='1.0',
   description='test',
   loadorder={
-    'main'
+    {'Script','main'},
+    {'ModuleScript','test1'}
   }
 }

@@ -4,6 +4,6 @@ return {
   description='test',
   loadorder={
     {'Script','main'},
-    {'ModuleScript','test1'}
+    --{'ModuleScript','test1'}
   }
 }

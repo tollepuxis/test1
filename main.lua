@@ -7,6 +7,10 @@ local function load(modules)
       pack:WaitForChild(mod).Parent = f
     end
 end
+local function req(module)
+    return require(pack:WaitForChild('Modules'):WaitForChild(module))
+end
 load({"test1"})
 pack:WaitForChild('Modules')
-print(require(pack.Modules.test1))
+local Services = req('Services')
+print(Services)
